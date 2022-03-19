@@ -19,4 +19,27 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+body{
+	display: flex;
+}
+nav{
+	display: flex;
+	width: 20%;
+	height: 500px;
+}
 
+.kontejner{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header,
+.footer{
+	flex-basis: 100%;
+	height: 20%;
+}
+
+.article,
+.aside{
+	flex-basis: 1;
+}
