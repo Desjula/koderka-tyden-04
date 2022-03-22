@@ -33,22 +33,21 @@ header, footer{
 	height: 60vh;
 }
 
-.nav,
-.aside{
-	flex-basis:20%;
-	flex-grow: 1;
+nav,
+aside{
+	flex: 0 0 20vw;
 }
 
-.article{
-	flex-grow: 1;
+article{
+	flex: 1 1 60vw;
 	order: 1;
 }
 
-.nav{
+nav{
 	order: 3;
 }
 
-.aside{
+aside{
 	order: 2;
 }
 

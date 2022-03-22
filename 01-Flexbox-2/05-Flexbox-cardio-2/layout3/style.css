@@ -19,4 +19,26 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.kontejner{
+	display: flex;
+}
 
+nav{
+	flex: 0 0 20vw;
+}
+
+.pravy{
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 80vw;
+}
+
+header,
+footer{
+	height: 20vh;
+}
+
+article{
+	flex: 1 1 60vw;
+	height: 60vh;
+}
